@@ -1,11 +1,11 @@
-class CreatePortfolios < ActiveRecord::Migration[5.1]
+class CreatePortrolios < ActiveRecord::Migration[5.1]
   def change
-    create_table :portfolios do |t|
+    create_table :portrolios do |t|
       t.string :title
       t.string :subtitle
       t.text :body
-      t.text :thumb_image 
       t.text :main_image
+      t.text :thumb_image
 
       t.timestamps
     end
